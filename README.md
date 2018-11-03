@@ -36,5 +36,5 @@ def run():
         cltDemo.run_sample_demo(N = N, plot = True, num_bins = 40)
 This produces the following output images.
 
-![alt text]https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_dist.png
+![Alt text]https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_dist.png
 
