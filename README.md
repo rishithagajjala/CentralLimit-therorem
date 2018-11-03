@@ -37,4 +37,8 @@ def run():
 This produces the following output images.
 
 ![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_dist.png)
+![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_n_10.png)
+![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_n_2.png)
+![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_n_3.png)
+![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_n_30.png)
 
