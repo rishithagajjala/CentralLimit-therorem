@@ -1,23 +1,25 @@
-# CentralLimit-therorem
-Illustrates how central limit theorem works
-Central Limit Theorem Demo
+## Central Limit Theorem Demo
 This project demonstrates the principles of the Central Limit Theorem by sampling a given input distribution 1000 times with a user specified sample size.
 
-Requirements
-If plotting is enabled, Matplotlib and Seaborn are required.
+## Requirements
+If plotting is enabled, [Matplotlib](http://matplotlib.org/) and [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/) are required.
 
-Usage
-The central_limit_theorem_demo.py file contains a CentralLimitTheorem class. It can be instantiated with a distribution in the form of a list.
+## Usage
+The `central_limit_theorem_demo.py` file contains a `CentralLimitTheorem` class. It can be instantiated with a distribution in the form of a list.
 
+```python
 import central_limit_theorem_demo as clt
 
 some_distribution = create_distribution(...)
 cltDemo = clt.CentralLimitTheorem(some_distribution)
-The demo can be run via the run_sample_demo method on CentralLimitTheoremDemo. This method takes a sample size N, a plotting flag plot, and an optional num_bins parameter describing the number of bins to use when plotting the demo output.
+```
 
-Example
+The demo can be run via the `run_sample_demo` method on CentralLimitTheoremDemo. This method takes a sample size `N`, a plotting flag `plot`, and an optional `num_bins` parameter describing the number of bins to use when plotting the demo output.
+
+## Example
 A full example might look something like this.
 
+```python
 import central_limit_theorem_demo as clt
 
 def create_uniform_sample_distribution():
@@ -34,11 +36,18 @@ def run():
     n_vals = [2, 3, 10, 30]
     for N in n_vals:
         cltDemo.run_sample_demo(N = N, plot = True, num_bins = 40)
+```
+
 This produces the following output images.
 
+
 ![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_dist.png)
+
 ![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_n_10.png)
+
 ![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_n_2.png)
+
 ![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_n_3.png)
+
 ![Alt text](https://github.com/rishithagajjala/CentralLimit-therorem/blob/master/uniform_n_30.png)
 
